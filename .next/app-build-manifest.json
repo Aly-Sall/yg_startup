@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/global-error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/global-error.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,10 +26,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/startup/[id]/page.js"
     ],
-    "/studio/[[...tool]]/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/studio/[[...tool]]/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
