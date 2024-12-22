@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+YG_Startup
 
-## Getting Started
+This project is a platform designed to help users create and showcase startups. It allows users to define key elements of a startup, such as the title, description, image, and type (e.g., tech, health, etc.). Additionally, users can authenticate using NextAuth to manage login and access.
 
-First, run the development server:
+Features :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Create Startup: Users can create startups by providing essential details such as the name, description, image, and startup type.
+Authentication: Users authenticate using NextAuth for a secure and seamless login process.
+Startup Display: Once a startup is created, it is displayed in detail for everyone to see.
+API Management: Using Sanity for flexible API management to handle dynamic data related to startups.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Frontend: Next.js, Tailwind CSS, Shadcn
+Authentication: NextAuth.js
+Backend: Sanity (for flexible APIs and data management)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.Clone the repository:
+2.Install dependencies:npm install
+3.Set up your environment variables by creating a .env.local file with the necessary keys (e.g., Sanity API keys, NextAuth configurations).
+4. Run the application: npm run dev
 
-## Learn More
+How It Works
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Creating a Startup: Users can fill in a form with details about their startup, such as title, description, and type. The startup is then saved and displayed to other users.
+Authentication: Users are authenticated via NextAuth, which provides a secure login mechanism. This allows users to manage their startups and view their personal data.
+API Integration: Data such as startup details is managed through Sanity, which provides a flexible and powerful API for storing and retrieving content.
+and more
