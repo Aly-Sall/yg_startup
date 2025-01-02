@@ -9,7 +9,7 @@ Authentication: Users authenticate using NextAuth for a secure and seamless logi
 Startup Display: Once a startup is created, it is displayed in detail for everyone to see.
 API Management: Using Sanity for flexible API management to handle dynamic data related to startups.
 
-Tech Stack
+Tech Stack :
 
 Frontend: Next.js, Tailwind CSS, Shadcn
 Authentication: NextAuth.js
